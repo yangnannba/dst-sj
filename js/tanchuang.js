@@ -25,3 +25,11 @@ document.write('<div id="fixed-wx"><img src="images/xinxi.gif" /></div>');
      $("#tanchuang-bg").css("display","none");       
   });
   
+  
+   var openwx=function(){
+     $("#tanchuang").addClass("tanchuangIn").removeClass("tanchuangOut");
+     $("#fixed-wx").css("display","none");
+     $("#tanchuang-bg").css("display","block");  
+	 }
+	 
+	 setTimeout(openwx,2000);   
